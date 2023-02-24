@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import "./styles.css";
 import * as yup from "yup";
  
-const ExemploTrybe = () => {
+const Form = () => {
   const formik = useFormik({
     initialValues: {
       code: "",
@@ -65,7 +65,7 @@ const ExemploTrybe = () => {
 };
  
 function App() {
-  return <ExemploTrybe />;
+  return <Form />;
 }
  
 const rootElement = document.getElementById("root");
